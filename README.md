@@ -1,0 +1,2 @@
+# name-generator
+azure serverless

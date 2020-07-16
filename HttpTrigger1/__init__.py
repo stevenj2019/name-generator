@@ -8,5 +8,4 @@ def main(req: func.HttpRequest) -> func.HttpResponse:
 
     nums = list(requests.get(''))
     alph = list(requests.get(''))
-    db.session.add(usernames(zip(name=zip(nums, alph))))
-    db.session.commit()
+    name = zip(nums, alph)
